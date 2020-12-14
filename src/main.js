@@ -2,7 +2,14 @@ import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
 import store from './store'
+import './assets/css/base.css'
+import './assets/css/font-icon/iconfont.css'
+import 'element-ui/lib/theme-chalk/index.css'
+import 'element-ui/lib/theme-chalk/display.css';
+import './plugins/element.js'
+import mavonEditor from 'mavon-editor'
 
+Vue.use(mavonEditor)
 Vue.config.productionTip = false
 
 new Vue({
