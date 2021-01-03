@@ -8,7 +8,7 @@
       >
         <ArticleItem
           v-for="(item, index) in articleList"
-          :key="index"
+          :key="index + Math.random()"
           :item="item"
         />
       </el-col>

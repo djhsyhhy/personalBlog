@@ -134,6 +134,7 @@ export default {
     handleSelect(e) {
       // console.log(e);
       this.$router.push(e);
+      // Math.random
     },
     handAbout() {
       this.$router.push("/aboutme");
@@ -154,6 +155,10 @@ export default {
   z-index: 999 !important;
   /* height: 50px; */
   position: relative;
+  width: 100%;
+  margin-bottom: 50px;
+
+  /* overflow: hidden; */
 }
 .head {
   width: 100%;

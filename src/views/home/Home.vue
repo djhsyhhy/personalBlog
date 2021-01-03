@@ -25,6 +25,5 @@ export default {
   opacity: 0.7;
 }
 .tap {
-  margin-bottom: 50px;
 }
 </style>
